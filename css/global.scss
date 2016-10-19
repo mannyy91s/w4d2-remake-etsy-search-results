@@ -1,0 +1,125 @@
+$color1:#F56400;
+$color2:#34A8C4;
+$colorBackground:#F5F5F1;
+
+*{
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+}
+.card{
+    height: 250px;
+}
+.card-title{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 200px;
+}
+body{
+    background: $colorBackground;
+}
+.header-container{
+    background: white;
+}
+.orange-text{
+    color:$color1;
+    font-size: 25px;
+}
+.top-left{
+    padding-top: 10px;
+}
+.top-left-left{
+    float: left;
+    color: $color1;
+    font-size: 35px;
+    padding-right: 10px;
+}
+.top-left-right{
+    padding-top: 10px;
+}
+.top-right{
+    p{
+        padding-top: 20px;
+        font-size: 15px;
+        a{
+            padding-right: 5px;
+        }
+        button{
+            color:$color2;
+            background: white;
+            border:1px solid $color2;
+        }
+
+    }
+}
+.top-row-two{
+    padding-left: 15px;
+    ul{
+        list-style-type: none;
+
+        li{
+            display: inline-block;
+            padding-right: 15px;
+        }
+
+    }
+}
+.middle-container{
+    padding-top:20px;
+}
+.middle-left-one{
+    background: white;
+    padding: 10px;
+    ul{
+        list-style-type: none;
+    }
+}
+.middle-left-two{
+    background: white;
+    padding-left: 5px;
+    .low-high{
+        display: inline-block;
+        width: 70px;
+    }
+    ul{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        li{
+            // border: 1px solid black;
+            display: inline-block;
+
+        }
+    }
+    .btn{
+        width: 15px;
+        padding: 12px;
+    }
+    .li-red{
+        background: red;
+    }
+    .li-orange{
+        background: orange;
+    }
+    .li-yellow{
+        background: yellow;
+    }
+    .li-green{
+        background: green;
+    }
+    .li-blue{
+        background: lightblue;
+    }
+    .li-purple{
+        background: purple;
+    }
+    .li-black{
+        background: black;
+    }
+    .li-white{
+        background: white;
+        border: .5px solid grey;
+    }
+}
