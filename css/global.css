@@ -7,7 +7,7 @@ img {
 }
 
 .card {
-  height: 250px;
+  height: 400px;
 }
 
 .card-title {
@@ -45,19 +45,32 @@ body {
   padding-top: 10px;
 }
 
-.top-right p {
+.top-right ul {
   padding-top: 20px;
   font-size: 15px;
 }
 
-.top-right p a {
+.top-right ul a {
   padding-right: 5px;
 }
 
-.top-right p button {
+.top-right ul li {
+  display: inline-block;
+}
+
+.top-right ul button {
   color: #34A8C4;
   background: white;
   border: 1px solid #34A8C4;
+}
+
+.logo-right {
+  display: inline-block;
+  height: 15px;
+}
+
+.logo-right i {
+  display: block;
 }
 
 .top-row-two {
@@ -142,4 +155,43 @@ body {
 .middle-left-two .li-white {
   background: white;
   border: .5px solid grey;
+}
+
+.board-seller {
+  opacity: .7;
+}
+
+.board-price {
+  color: green;
+  opacity: .7;
+}
+
+footer .bottom-button {
+  background: #34A8C4;
+  color: white;
+}
+
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  opacity: .8;
+  font-size: 13px;
+}
+
+footer li {
+  margin: 8px 0;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+}
+
+.middle-right-text p:first-child {
+  float: left;
+}
+
+.middle-right-text {
+  text-align: right;
 }

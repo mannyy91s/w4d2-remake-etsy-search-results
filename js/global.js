@@ -19,12 +19,12 @@ function makeThemBoxes(item){
     card.appendChild(cardTextArea)
 
     var cardTextLeft = document.createElement('div')
-    cardTextLeft.className ='col-sm-6 text-left'
+    cardTextLeft.className ='col-sm-6 text-left board-seller'
     cardTextLeft.innerHTML = item.seller
     cardTextArea.appendChild(cardTextLeft)
 
     var cardTextRight = document.createElement('div')
-    cardTextRight.className = 'col-sm-6 text-right'
+    cardTextRight.className = 'col-sm-6 text-right board-price'
     cardTextRight.innerHTML = item.price
     cardTextArea.appendChild(cardTextRight)
 
@@ -33,13 +33,13 @@ function makeThemBoxes(item){
 
 var items = [
     {
-        image: 'http://unsplash.it/200?random',
+        image: 'http://unsplash.it/200?image=23',
         title: 'Vintage Board Game',
         seller: 'franz66',
         price: '$'+ 15.00
     },
     {
-        image: 'http://unsplash.it/200?random',
+        image: 'http://unsplash.it/200?image=24',
         title: 'Vintage Game of Life',
         seller: 'vintagetoolbox',
         price:'$'+  20.00

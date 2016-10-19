@@ -11,7 +11,7 @@
 </head>
 <body>
   <header>
-    <div class="container header-container">
+    <div class="container-fluid header-container">
       <div class="row">
         <div class="col-sm-6 top-left">
           <div class="top-left-left">
@@ -25,129 +25,188 @@
           </div>
         </div>
 
-
         <div class="col-sm-6 top-right text-right">
-          <p>
-            <a href="#">Sell on Etsy</a>
-            <a href="#">Register</a>
-            <button class="btn">Sign in</button>
-            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-          </p>
-          <!-- <ul>
-          <li><a href="#">Sell on Etsy</a></li>
-          <li><a href="#">Register</a></li>
-          <li><button>Sign in</button></li>
-          <li></li>
-        </ul> -->
-      </div>
-      <div class="row">
-        <div class="col-sm-12 top-row-two">
-          <hr />
           <ul>
-            <li><a href="#">Clothing &amp; Accessories</a></li>
-            <li><a href="#">Craft Supplies &amp; Tools</a></li>
-            <li><a href="#">Weddings</a></li>
-            <li><a href="#">Home &amp; Living</a></li>
-            <li><a href="#">Kids &amp; Baby</a></li>
-            <li><a href="#">Vintage</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </header>
-
-
-  <div class="container middle-container">
-    <div class="row">
-      <div class="col-sm-3">
-        <p>
-          Show results for:
-        </p>
-        <div class="middle-left-one">
-          All categories
-          <ul>
-            <li><a href="#">Toys &amp; Games</a></li>
-            <li><a href="#">Art &amp; Collections</a></li>
-            <li><a href="#">Craft Supplies &amp; Tools</a></li>
-            <li><a href="#">Home &amp; Living</a></li>
-            <li><a href="#">Books, Movies &amp; Music</a></li>
-            <li><a href="#">Paper &amp; Party Supplies</a></li>
-            <li><a href="#">Accessories</a></li>
-            <li><a href="#">Clothing</a></li>
-            <li><a href="#">Electronics &amp; Accessories</a></li>
-            <li><a href="#">Jewelry</a></li>
-            <li><a href="#">Weddings</a></li>
-            <li><a href="#">Bags &amp; Purses</a></li>
-          </ul>
-        </div>
-        <br />
-        <p>
-          Refine your search
-        </p>
-        <div class="middle-left-two">
-          Shop location<br />
-          <input type="checkbox"><a href="#">Anywhere</a></input><br />
-          <input type="checkbox"><a href="#">United States</a></input><br />
-          <a href="#">Choose a custom location</a>
-          <hr />
-          Item Type<br />
-          <input type="checkbox"><a href="#">All Items</a></input><br />
-          <input type="checkbox"><a href="#">Handmade</a></input><br />
-          <input type="checkbox"><a href="#">Vintage</a></input><br />
-          <hr />
-          Price($)<br />
-          <div class="form-group">
-            <input type="text" class="form-control low-high" placeholder="Low"> to
-            <input type="text" class="form-control low-high" placeholder="High">
-            <button><i class="fa fa-play" aria-hidden="true"></i>
-            </button>
-          </div>
-          <hr />
-          Filter by color<br />
-          <ul class="text-left">
-            <li ><a href="#" ><button class=" btn li-red"></button></a></li>
-            <li ><a href="#" ><button class=" btn li-orange"></button></a></li>
-            <li ><a href="#" ><button class=" btn li-yellow"></button></a></li>
-            <li ><a href="#" ><button class=" btn li-green"></button></a></li>
-            <li ><a href="#" ><button class=" btn li-blue"></button></a></li>
-            <li ><a href="#" ><button class=" btn li-purple"></button></a></li>
-            <li ><a href="#" ><button class=" btn li-black"></button></a></li>
-            <li ><a href="#" ><button class=" btn li-white"></button></a></li>
-          </ul>
-          <hr />
-          Ordering options<br />
-          <input type="checkbox"><a href="#">Accepts Etsy gift cards</a></input><br />
-          <input type="checkbox"><a href="#">Customizable</a></input><br />
-          <hr />
-          Ship to<br />
-          <select class="form-control">
-            <option>United States</option>
-          </select>
-        </div>
-      </div>
-
-      <div class="col-sm-9">
-        <p>
-          Did you mean the shop board boardgames?
-        </p>
-        <div id="searchResults" class="row">
-          <!-- <div class="col-sm-3">
-            <div class="card">
-              <img src="http://unsplash.it/200?random" />
-              <div class="card-title">
-
-              </div>
+            <li><a href="#">Sell on Etsy</a></li>
+            <li><a href="#">Register</a></li>
+            <li><button class="btn">Sign in</button></li>
+            <div class="logo-right">
+              <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+              Cart
             </div>
-          </div> -->
+          </ul>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-12 top-row-two">
+            <hr />
+            <ul>
+              <li><a href="#">Clothing &amp; Accessories</a></li>
+              <li><a href="#">Craft Supplies &amp; Tools</a></li>
+              <li><a href="#">Weddings</a></li>
+              <li><a href="#">Home &amp; Living</a></li>
+              <li><a href="#">Kids &amp; Baby</a></li>
+              <li><a href="#">Vintage</a></li>
+            </ul>
+          </div>
         </div>
       </div>
-    </div>
+    </header>
 
 
+    <div class="container-fluid middle-container">
+      <div class="row">
+        <div class="col-sm-2">
+          <p>
+            Show results for:
+          </p>
+          <div class="middle-left-one">
+            All categories
+            <ul>
+              <li><a href="#">Toys &amp; Games</a></li>
+              <li><a href="#">Art &amp; Collections</a></li>
+              <li><a href="#">Craft Supplies &amp; Tools</a></li>
+              <li><a href="#">Home &amp; Living</a></li>
+              <li><a href="#">Books, Movies &amp; Music</a></li>
+              <li><a href="#">Paper &amp; Party Supplies</a></li>
+              <li><a href="#">Accessories</a></li>
+              <li><a href="#">Clothing</a></li>
+              <li><a href="#">Electronics &amp; Accessories</a></li>
+              <li><a href="#">Jewelry</a></li>
+              <li><a href="#">Weddings</a></li>
+              <li><a href="#">Bags &amp; Purses</a></li>
+            </ul>
+          </div>
+          <br />
+          <p>
+            Refine your search
+          </p>
+          <div class="middle-left-two">
+            Shop location<br />
+            <input type="checkbox"><a href="#">Anywhere</a></input><br />
+            <input type="checkbox"><a href="#">United States</a></input><br />
+            <a href="#">Choose a custom location</a>
+            <hr />
+            Item Type<br />
+            <input type="checkbox"><a href="#">All Items</a></input><br />
+            <input type="checkbox"><a href="#">Handmade</a></input><br />
+            <input type="checkbox"><a href="#">Vintage</a></input><br />
+            <hr />
+            Price($)<br />
+            <div class="form-group">
+              <input type="text" class="form-control low-high" placeholder="Low"> to
+              <input type="text" class="form-control low-high" placeholder="High">
+              <button><i class="fa fa-play" aria-hidden="true"></i>
+              </button>
+            </div>
+            <hr />
+            Filter by color<br />
+            <ul class="text-left">
+              <li ><a href="#" ><button class=" btn li-red"></button></a></li>
+              <li ><a href="#" ><button class=" btn li-orange"></button></a></li>
+              <li ><a href="#" ><button class=" btn li-yellow"></button></a></li>
+              <li ><a href="#" ><button class=" btn li-green"></button></a></li>
+              <li ><a href="#" ><button class=" btn li-blue"></button></a></li>
+              <li ><a href="#" ><button class=" btn li-purple"></button></a></li>
+              <li ><a href="#" ><button class=" btn li-black"></button></a></li>
+              <li ><a href="#" ><button class=" btn li-white"></button></a></li>
+            </ul>
+            <hr />
+            Ordering options<br />
+            <input type="checkbox"><a href="#">Accepts Etsy gift cards</a></input><br />
+            <input type="checkbox"><a href="#">Customizable</a></input><br/>
+            <hr />
+            Ship to<br />
+            <select class="form-control">
+              <option>United States</option>
+            </select>
+          </div>
+        </div>
 
-    <!-- Scripts go here. -->
-    <script type="text/javascript" src="https://cdn.polyfill.io/v2/polyfill.min.js?features=fetch"></script>
-    <script type="text/javascript" src="js/global.js"></script>
-    <script src="https://use.fontawesome.com/622f283375.js"></script>
-  </body>
-  </html>
+        <div class="col-sm-10">
+          <p>
+            Did you mean the shop board boardgames?
+          </p>
+          <div class="middle-right-text">
+            <p>
+              <a href="#">All categories</a> >"board games" (13,563 Results)
+            </p>
+            <p class-"middle-text-right">
+              Sort by:<a href="#"> Relevancy </a><i class="fa fa-sort-desc" aria-hidden="true"></i>
+            </p>
+          </div>
+
+          <div id="searchResults" class="row">
+          </div>
+        </div>
+      </div>
+      <hr />
+
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-3">
+              <h5>Turn your passion into a business</h5>
+              <button class="btn bottom-button">Open a shop</button>
+              <h5>Sell on Etsy</h5>
+              <ul>
+                <li><a href="#">Open a shop</a></li>
+                <li><a href="#">Seller Handbook</a></li>
+                <li><a href="#">Etsy credit card reader</a></li>
+                <li><a href="#">Manufacturing</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-2">
+              <h5>Join the community</h5>
+              <ul>
+                <li><a href="#">Teams</a></li>
+                <li><a href="#">Forums</a></li>
+                <li><a href="#">Upcoming events</a></li>
+                <li><a href="#">Affiliates</a></li>
+                <li><a href="#">Etsy Local</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-3">
+              <h5>Discover and shop</h5>
+              <ul>
+                <li><a href="#">Gift cards</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Mobile apps</a></li>
+                <li><a href="#">Gift registries</a></li>
+                <li><a href="#">Wholesale</a></li>
+                <li><a href="#">Search</a></li>
+                <li><a href="#">Editors' Picks</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-2">
+              <h5>Get to know us</h5>
+              <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Policies</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Press</a></li>
+                <li><a href="#">Developers</a></li>
+                <li><a href="#">Investors</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-2">
+              <h5>Follow Etsy</h5>
+              <ul>
+                <li><a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i>
+                  Facebook</a></li>
+                  <li><a href="#">Twitter</a></li>
+                  <li><a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i>
+                    Pinterest</a></li>
+                    <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i>
+                      Instagram</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </footer>
+            <!-- Scripts go here. -->
+            <script type="text/javascript" src="https://cdn.polyfill.io/v2/polyfill.min.js?features=fetch"></script>
+            <script type="text/javascript" src="js/global.js"></script>
+            <script src="https://use.fontawesome.com/622f283375.js"></script>
+          </body>
+          </html>

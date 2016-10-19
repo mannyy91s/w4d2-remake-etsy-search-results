@@ -1,7 +1,6 @@
 $color1:#F56400;
 $color2:#34A8C4;
 $colorBackground:#F5F5F1;
-
 *{
     box-sizing: border-box;
 }
@@ -9,7 +8,7 @@ img{
     width: 100%;
 }
 .card{
-    height: 250px;
+    height: 400px;
 }
 .card-title{
     text-overflow: ellipsis;
@@ -40,30 +39,37 @@ body{
     padding-top: 10px;
 }
 .top-right{
-    p{
+    ul{
         padding-top: 20px;
         font-size: 15px;
         a{
             padding-right: 5px;
+        }
+        li{
+            display: inline-block;
         }
         button{
             color:$color2;
             background: white;
             border:1px solid $color2;
         }
-
+    }
+}
+.logo-right{
+    display: inline-block;
+    height: 15px;
+    i{
+        display: block;
     }
 }
 .top-row-two{
     padding-left: 15px;
     ul{
         list-style-type: none;
-
         li{
             display: inline-block;
             padding-right: 15px;
         }
-
     }
 }
 .middle-container{
@@ -88,9 +94,7 @@ body{
         margin: 0;
         padding: 0;
         li{
-            // border: 1px solid black;
             display: inline-block;
-
         }
     }
     .btn{
@@ -122,4 +126,37 @@ body{
         background: white;
         border: .5px solid grey;
     }
+}
+.board-seller{
+    opacity: .7;
+}
+.board-price{
+    color: green;
+    opacity: .7;
+}
+footer{
+    .bottom-button{
+        background: $color2;
+        color: white;
+    }
+    ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        opacity: .8;
+        font-size: 13px;
+    }
+    li{
+        margin: 8px 0;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+}
+.middle-right-text p:first-child{
+    float: left;
+}
+.middle-right-text{
+    text-align: right;
 }
